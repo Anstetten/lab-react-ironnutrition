@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-color: lightgrey;
+  padding:5px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .App-logo {
@@ -36,3 +41,48 @@
     transform: rotate(360deg);
   }
 }
+
+.foodListWrapper{
+  width:450px;
+}
+
+.foodFormWrapper{
+  margin:10px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+
+}
+
+button{
+  margin: 5px;
+}
+
+.appLeft{
+  padding:5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todaysWrapper{
+  margin-top: 100px;
+  margin-left: 20px;
+  padding:5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.todayList{
+  margin-left: 10px;
+  list-style:disc;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.todayList li{
+  margin-left: 0px;
+}
+
