@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Summary(props) {
-
+//random comment
     let foods = props.foods;
     let calories =0;
     calories = foods.reduce((acc,curr)=>{ return acc+curr.calories*curr.quantityToAdd},0);
